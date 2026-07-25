@@ -1,7 +1,26 @@
 aid: completeomics
-name: completeomics
-description: completeomics is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/completeomics.png
+name: Complete Omics
+description: Complete Omics is a Baltimore, Maryland based, CLIA- and CAP-accredited
+  molecular diagnostics company building ultra-deep, clinically reproducible proteomics
+  and multi-omics testing. Its Complete360 liquid- and tissue-biopsy platform and
+  Valid-NEO companion-diagnostics platform apply AI-assisted analysis of high-dimensional
+  biological data across oncology, neurology, cardiovascular, and immunology testing.
+  The company holds 40+ global patents and 20+ top-tier journal publications. Complete
+  Omics is a portfolio company of Qiming Venture Partners. No public developer API,
+  documentation, or SDK surface exists at this time; this profile captures company
+  identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/completeomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Molecular Diagnostics
+- Proteomics
+- Multi-Omics
+- Genomics
+- Healthcare
+- Life Sciences
+- Oncology
+- Companion Diagnostics
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,14 @@ maintainers:
 common:
 - type: Website
   url: https://completeomics.com
+- type: Shop
+  url: https://www.completeomics.com/shop/
+- type: PrivacyPolicy
+  url: https://www.completeomics.com/privacy-policy/
+- type: DomainSecurity
+  url: security/completeomics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
